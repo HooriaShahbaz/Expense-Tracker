@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: auto;
+    width: 300px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.add-expense input[type="text"],
+.add-expense input[type="number"] {
+    width: 75%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    display: inline-block;
+}
+
+.add-expense button {
+    width: 20%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-expense button:hover {
+    background-color: #4cae4c;
+}
+
+.expense-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.expense-list ul li {
+    background: #eee;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.balance h2 {
+    text-align: center;
+}
